@@ -12,6 +12,7 @@ def generate_data(N, beta, func):
     noise = np.random.normal(0, np.sqrt(1/beta), N)
     y = y_true + noise
     return x, y, y_true
+    
 
 # 3. Šî’êŠÖ”‚ÆŒv‰æs—ñ
 def radial_basis_functions(x, M, s):
