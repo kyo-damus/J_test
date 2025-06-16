@@ -13,7 +13,6 @@ def generate_data(N, beta, func):
     y = y_true + noise
     return x, y, y_true
     
-
 # 3. Šî’êŠÖ”‚ÆŒv‰æs—ñ
 def radial_basis_functions(x, M, s):
     mus = np.linspace(0, 1, M, endpoint=False)
